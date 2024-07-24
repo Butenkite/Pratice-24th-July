@@ -1,0 +1,108 @@
+/*
+
+CSS rules you may need for reference:
+
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+*/
+
+/* Write your CSS code here */
+
+* {
+  font-family: sans-serif;
+}
+
+header {
+  font-family: Arial;
+  border-radius: 5px;
+  border: 1px solid steelblue;
+  background-color: steelblue;
+  color: white;
+}
+
+h2 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid steelblue;
+  border-left: 1px solid steelblue;
+  color: darkslategrey;
+}
+
+main {
+  padding: 20px;
+}
+
+main section {
+  background-color: whitesmoke;
+  animation-name: breathing;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  margin: 20px 0px;
+  padding: 10px 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+table {
+  margin: 20px 0px;
+}
+
+th {
+  padding: 10px 0px;
+  padding-left: 10px;
+  color: white;
+  background-color: steelblue;
+}
+
+td {
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+
+p:first-letter {
+  font-size: 20px;
+  color: steelblue;
+  font-weight: bold;
+}
+
+tr {
+  border-bottom: 1px solid rgba(169, 169, 169, 0.637);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(169, 169, 169, 0.452);
+}
+
+tr:hover {
+  background-color: blanchedalmond;
+}
+
+@keyframes breathing {
+  0% {
+    background-color: silver;
+  }
+  50% {
+    background-color: whitesmoke;
+  }
+  100% {
+    background-color: silver;
+  }
+}
